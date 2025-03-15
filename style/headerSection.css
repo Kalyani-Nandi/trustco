@@ -1,0 +1,45 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.25rem 7.5rem;
+}
+.hero-title {
+  color: #12141d;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+}
+.hero-content {
+  color: #12141d;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+.hero-btn-ctn {
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.play-btn {
+  gap: 1rem;
+  cursor: pointer;
+  color: #043a53;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.hero-btn-ctn,
+.play-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-btn-ctn {
+  .btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
