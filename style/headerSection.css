@@ -1,0 +1,138 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.25rem 7.5rem;
+  flex-direction: row;
+  padding-left: 9.375rem;
+  padding-right: 9.375rem;
+}
+
+.hero-title {
+  color: #12141d;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+}
+.hero-content {
+  color: #12141d;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+.hero-btn-ctn {
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-direction: row;
+}
+.play-btn {
+  gap: 1rem;
+  cursor: pointer;
+  color: #043a53;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.hero-btn-ctn,
+.play-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-btn-ctn {
+  .btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.desktop-img {
+  display: flex;
+}
+
+.mobile-img {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .hero-section {
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-btn-ctn {
+    flex-direction: column;
+  }
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    display: flex;
+    padding-top: 1.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .hero-title {
+    font-size: 36px;
+  }
+  .hero-content {
+    font-size: 14px;
+  }
+}
+
+.btn-shadow {
+  box-shadow: 0px 23px 47px 0px #043a533d;
+}
+
+/* client brand section */
+.brand-section {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 4rem;
+  padding: 3.125rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .brand-section {
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .brand-section {
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.brand-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  white-space: nowrap;
+}
+
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+}
