@@ -1,0 +1,80 @@
+@import url("style/header.css");
+@import url("style/headerSection.css");
+
+:root {
+  --primary-color: #404040;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--primary-color);
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+}
+
+main {
+ 
+  background: #f2f5f6;
+}
+
+/* @media (max-width: 768px) {
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: #007bff;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.shadow{
+    box-shadow: 0px 1px 2px 0px #00000014;
+}
+.border{
+    border: 1px solid #F2F5F6
+}
+.brand-name{
+    color: #043A53;
+}
