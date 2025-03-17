@@ -71,3 +71,62 @@
     font-size: 1rem;
   }
 }
+
+.beneficial-section {
+  background-color: #fff;
+  padding: 6.25rem 9.375rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.beneficial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #12141d;
+}
+
+.beneficial-title {
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+
+.beneficial-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.beneficial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+
+.beneficial-card {
+  background-color: #f2f5f6;
+  gap: 2rem;
+  border-radius: 1rem;
+  font-size: 1.125rem;
+  color: #404040;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+}
+
+.beneficial-card h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #12141d;
+}
+
+.beneficial-card img {
+  width: 5.8125rem;
+  height: 5.25rem;
+}
