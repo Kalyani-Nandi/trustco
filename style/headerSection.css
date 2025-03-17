@@ -78,7 +78,6 @@
     display: flex;
     padding-top: 1.875rem;
   }
-  
 }
 
 @media (max-width: 768px) {
@@ -89,11 +88,37 @@
   .hero-title {
     font-size: 36px;
   }
-  .hero-content{
+  .hero-content {
     font-size: 14px;
   }
 }
 
-.btn-shadow{
-    box-shadow: 0px 23px 47px 0px #043A533D;
+.btn-shadow {
+  box-shadow: 0px 23px 47px 0px #043a533d;
+}
+
+/* client brand section */
+.brand-section {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 4rem;
+  padding: 3.125rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.brand-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  white-space: nowrap;
+}
+
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
 }
