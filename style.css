@@ -1,5 +1,7 @@
 @import url("style/header.css");
 @import url("style/headerSection.css");
+@import url("style/videoSection.css");
+
 
 :root {
   --primary-color: #404040;
