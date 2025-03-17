@@ -4,21 +4,24 @@
   align-items: center;
   padding: 1.5rem 1.25rem;
   background: #f2f5f6;
-  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
 }
 
-/* Logo */
 .logo {
   height: 24px;
 }
 
-/* Navigation (Desktop Only) */
 .nav-links ul {
   display: flex;
   list-style: none;
   gap: 2.5rem;
 }
 
+.modal-nav-links {
+  list-style: none;
+  gap: 2.5rem;
+}
+
+.modal-nav-links a,
 .nav-links a {
   text-decoration: none;
   color: #12141d;
@@ -26,11 +29,14 @@
   font-size: 1rem;
 }
 
+.modal-nav-links a:hover,
 .nav-links a:hover {
   color: #043a53;
 }
 
-/* Buttons */
+.mobile-logo {
+  margin-bottom: 10px;
+}
 .buttons {
   display: flex;
   gap: 0.625rem;
@@ -60,83 +66,4 @@
   color: #fff;
   font-weight: 800;
   font-size: 18px;
-}
-
-/* Burger Menu (Hidden on Desktop) */
-.burger {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/* Modal (Hidden by Default) */
-.modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1000;
-}
-
-.modal.show {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-content {
-  background: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  text-align: center;
-}
-
-.modal-content ul {
-  list-style: none;
-}
-
-.modal-content li {
-  margin: 1rem 0;
-}
-
-.modal-content a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.2rem;
-}
-
-.modal-content a:hover {
-  color: #007bff;
-}
-
-/* Close Button */
-.close-btn {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/* Responsive Design */
-@media (max-width: 900px) {
-  .nav-links {
-    display: none;
-  }
-
-  .burger {
-    display: block; /* Show burger on mobile */
-  }
-
-  .buttons {
-    display: none; /* Hide buttons on mobile */
-  }
 }
