@@ -1,3 +1,6 @@
+@import url("style/header.css");
+@import url("style/headerSection.css");
+
 :root {
   --primary-color: #404040;
 }
@@ -14,18 +17,21 @@ body {
   font-size: 18px;
   line-height: 28px;
   color: var(--primary-color);
-  padding-left: 150px;
-  padding-right: 150px;
   background-color: #f9f9f9;
   overflow-x: hidden;
 }
 
-@media (max-width: 768px) {
-  body {
+main {
+ 
+  background: #f2f5f6;
+}
+
+/* @media (max-width: 768px) {
+  main {
     padding-left: 20px;
     padding-right: 20px;
   }
-}
+} */
 
 h1,
 h2,
@@ -61,4 +67,14 @@ a:hover {
 footer {
   margin-top: 40px;
   text-align: center;
+}
+
+.shadow{
+    box-shadow: 0px 1px 2px 0px #00000014;
+}
+.border{
+    border: 1px solid #F2F5F6
+}
+.brand-name{
+    color: #043A53;
 }
