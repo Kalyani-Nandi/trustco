@@ -108,7 +108,21 @@
   align-items: center;
 }
 
+@media (min-width: 768px) {
+  .brand-section {
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+  }
+}
 
+@media (min-width: 1280px) {
+  .brand-section {
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
 .brand-text {
   font-size: 1rem;
   font-weight: 500;
