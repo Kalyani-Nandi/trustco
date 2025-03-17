@@ -14,7 +14,6 @@
 .sales-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 2.5rem;
   width: 100%;
   color: #fff;
@@ -38,4 +37,37 @@
 .sales-video img {
   max-width: 100%;
   max-height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .sales-section {
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+    padding-top: 50px;
+    gap: 32px;
+  }
+
+  .sales-content {
+    flex-direction: column;
+    text-align: start;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sales-section {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    gap: 32px;
+    padding-top: 50px;
+  }
+
+  .sales-title {
+    font-size: 2rem;
+    line-height: 38px;
+  }
+
+  .sales-description {
+    font-size: 1rem;
+  }
 }
