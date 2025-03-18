@@ -10,6 +10,10 @@
       rel="stylesheet"
     />
     <title>TRUSTCO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -221,47 +225,69 @@
       </div>
 
       <!--Testimonial Section-->
-      <div>
-        <div>
-          <div>We Believe people we trust</div>
+      <div class="trusted-section">
+        <div class="trusted-header">
+          <h1>We Believe People We Trust</h1>
           <a href="#"
-            >See All
-            <img src="/assets/arrow.svg" alt="arrow" />
-          </a>
+            >See All <img src="/assets/blackArrow.svg" alt="arrow"
+          /></a>
         </div>
-        <div>
-          <div>
-            <div>
-              <img src="/assets/“.svg" alt="“" />
-            </div>
-            <p>
-              I'm totally unconvinced that two people can find a person they
-              haven't known previously, and become an effective co-founder
-            </p>
-            <div>
-              <img src="/assets/Photo.svg" alt="Photo" />
-              <div>
-                <h1>Andrew Wilkins</h1>
-                <h1>Managing Director, Yess Company</h1>
+
+        <!-- Swiper Container -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper ">
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide trusted-card">
+              <div><img src="/assets/“.svg" alt="“" /></div>
+              <p>
+                I'm totally unconvinced that two people can find a person they
+                haven't known previously, and become an effective co-founder.
+              </p>
+              <div class="trusted-profile">
+                <img src="/assets/Photo.svg" alt="Photo" />
+                <div class="trusted-profile-info">
+                  <h1>Andrew Wilkins</h1>
+                  <h2>Managing Director, Yess Company</h2>
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <div>
-              <img src="/assets/“.svg" alt="“" />
-            </div>
-            <p>
-              Easy to use, reasonably priced, and ensures I don’t drop the ball
-              on following up with my leads!
-            </p>
-            <div>
-              <img src="/assets/Photo2.svg" alt="Photo2" />
-              <div>
-                <h1>Daisy Phelps</h1>
-                <h1>Digital Marketing Director, Monatc</h1>
+
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide trusted-card">
+              <div><img src="/assets/“.svg" alt="“" /></div>
+              <p>
+                Easy to use, reasonably priced, and ensures I don’t drop the
+                ball on following up with my leads!
+              </p>
+              <div class="trusted-profile">
+                <img src="/assets/Photo2.svg" alt="Photo2" />
+                <div class="trusted-profile-info">
+                  <h1>Daisy Phelps</h1>
+                  <h2>Digital Marketing Director, Monatc</h2>
+                </div>
               </div>
             </div>
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide trusted-card">
+              <div><img src="/assets/“.svg" alt="“" /></div>
+              <p>
+                Easy to use, reasonably priced, and ensures I don’t drop the
+                ball on following up with my leads!
+              </p>
+              <div class="trusted-profile">
+                <img src="/assets/Photo2.svg" alt="Photo2" />
+                <div class="trusted-profile-info">
+                  <h1>Daisy Phelps</h1>
+                  <h2>Digital Marketing Director, Monatc</h2>
+                </div>
+              </div>
+            </div>
+
+            <!-- Add More Slides If Needed -->
           </div>
+
+          <!-- Pagination & Navigation -->
+          <div class="swiper-pagination"></div>
         </div>
       </div>
 
@@ -407,6 +433,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
