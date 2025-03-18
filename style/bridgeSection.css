@@ -1,0 +1,49 @@
+.bridge-section {
+  background-color: #fff;
+  color: #12141d;
+  font-size: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8125rem;
+}
+
+.bridge-image {
+  width: 50%;
+}
+
+.bridge-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
+  padding-bottom: 2rem;
+  padding-right: 9.375rem;
+}
+
+.bridge-title {
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+
+.bridge-title span {
+  color: #92a7b0;
+}
+
+.bridge-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bridge-btn {
+  margin-left: 0;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
+
