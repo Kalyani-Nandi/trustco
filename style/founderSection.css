@@ -1,0 +1,56 @@
+.founder-section {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 6.25rem;
+  padding-left: 9.375rem;
+  gap: 4rem;
+}
+
+.founder-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.founder-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #12141d;
+}
+
+.founder-text h1 {
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+
+.founder-text p {
+  font-size: 1.5rem;
+}
+
+.founder-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.founder-info h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.founder-info h3 {
+  font-size: 1rem;
+  color: #404040;
+}
+
+.founder-img {
+  width: 50%;
+}
+
+
