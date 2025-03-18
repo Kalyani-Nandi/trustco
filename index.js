@@ -9,3 +9,19 @@ burger.addEventListener("click", () => {
 close.addEventListener("click", () => {
   modal.classList.remove("show");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    spaceBetween: 20,
+    breakpoints: {
+      640: { slidesPerView: 1 },
+      768: { slidesPerView: 1 },
+      1024: { slidesPerView: 2 },
+    },
+  });
+});

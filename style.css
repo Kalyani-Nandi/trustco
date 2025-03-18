@@ -3,6 +3,8 @@
 @import url("style/videoSection.css");
 @import url("style/bridgeSection.css");
 @import url("style/founderSection.css");
+@import url("style/testimonialSection.css");
+
 
 :root {
   --primary-color: #404040;
