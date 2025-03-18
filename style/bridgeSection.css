@@ -117,4 +117,27 @@
   font-weight: bold;
 }
 
+@media (max-width: 1024px) {
+  .stats-section {
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 6.25rem 4.375rem; 
+  }
+}
 
+@media (max-width: 768px) {
+  .stats-section {
+    text-align: center;
+    gap: 2rem;
+    padding: 6.25rem 1.25rem;
+  }
+  .stats-box h1 {
+    font-size: 2rem;
+  }
+  .stats-box div {
+    font-size: 1rem;
+  }
+  .stats-box {
+    gap: 1rem;
+  }
+}
