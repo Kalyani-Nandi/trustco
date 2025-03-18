@@ -146,6 +146,11 @@
   .beneficial-content {
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+  }
+  .beneficial-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
   }
 }
 
@@ -157,12 +162,10 @@
     padding-right: 1.25rem;
     gap: 2rem;
   }
-
   .beneficial-title {
-    font-size: 2.5rem;
-    line-height: 3.125rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
   }
-
   .beneficial-card {
     font-size: 1rem;
   }
