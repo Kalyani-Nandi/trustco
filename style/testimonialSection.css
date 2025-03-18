@@ -112,67 +112,6 @@
   border-radius: 10px;
 }
 
-@media (max-width: 1024px) {
-  .trusted-section {
-    padding: 4rem 4.375rem;
-    gap: 3rem;
-  }
-  .trusted-header h1 {
-    font-size: 2.5rem;
-    line-height: 3rem;
-  }
-  .trusted-card p {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 1280px) and (min-width: 1024px) {
-  .trusted-header h1 {
-    font-size: 2.5rem;
-    line-height: 3rem;
-  }
-  .trusted-card p {
-    font-size: 1.25rem;
-  }
-  .trusted-section {
-    padding: 4rem 4.375rem;
-    gap: 3rem;
-  }
-}
-@media (max-width: 768px) {
-  .trusted-section {
-    padding: 3rem 1.25rem;
-    padding-bottom: 5rem;
-    gap: 2rem;
-  }
-  .trusted-header {
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
-  }
-
-  .trusted-header a {
-    position: absolute;
-    font-size: 1rem;
-    bottom: 2rem;
-  }
-
-  .swiper {
-    width: 100%;
-    padding-top: 3.5rem !important;
-  }
-
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
-  }
-
-  .swiper-pagination {
-    position: absolute !important;
-    margin-top: 0;
-    top: 0 !important;
-  }
-}
 .blog-section {
   background-color: #fff;
   color: #12141d;
@@ -270,4 +209,81 @@
   gap: 0.5rem;
   align-items: center;
   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .trusted-section,
+  .blog-section {
+    padding: 4rem 4.375rem;
+    gap: 3rem;
+  }
+  .trusted-header h1,
+  .blog-header .blog-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .trusted-card p,
+  .blog-text {
+    font-size: 1.25rem;
+  }
+  .blog-content{
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .trusted-header h1,
+  .blog-header .blog-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .trusted-card p,
+  .blog-text {
+    font-size: 1.25rem;
+  }
+  .trusted-section,
+  .blog-section {
+    padding: 4rem 4.375rem;
+    gap: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .trusted-section,
+  .blog-section {
+    padding: 3rem 1.25rem;
+    padding-bottom: 5rem;
+    gap: 2rem;
+  }
+  .trusted-header,
+  .blog-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .trusted-header a,
+  .blog-header a {
+    position: absolute;
+    font-size: 1rem;
+    bottom: 2rem;
+  }
+
+  .blog-card {
+    max-width: 100%;
+  }
+  .swiper {
+    width: 100%;
+    padding-top: 3.5rem !important;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiper-pagination {
+    position: absolute !important;
+    margin-top: 0;
+    top: 0 !important;
+  }
 }
