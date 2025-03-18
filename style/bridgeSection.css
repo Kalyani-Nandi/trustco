@@ -46,4 +46,47 @@
   gap: 1.5rem;
 }
 
+@media (max-width: 1024px) {
+  .bridge-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2rem;
+  }
 
+  .bridge-image {
+    width: 100%;
+  }
+  .bridge-content {
+    padding-left: 4.375rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .bridge-content {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    padding-bottom: 0;
+    gap: 1rem;
+  }
+  .bridge-title {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .bridge-content {
+    gap: 1rem;
+    padding-right: 4.375rem;
+  }
+  .bridge-section {
+    gap: 0;
+  }
+  .bridge-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
