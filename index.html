@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>TRUSTCO</title>
     <link
       rel="stylesheet"
@@ -422,50 +423,52 @@
     </main>
 
     <!-- Footer Section -->
-    <footer>
-      <div>
-        <div>
+    <footer class="footer">
+      <!-- Footer Top Section -->
+      <div class="footer-top">
+        <div class="footer-logo">
           <img src="assets/Logo.svg" alt="Logo" />
-          <div>
+          <div class="footer-socials">
             <img src="/assets/facebook.svg" alt="facebook" />
             <img src="/assets/instagram.svg" alt="instagram" />
             <img src="/assets/youTube.svg" alt="youTube" />
           </div>
         </div>
-        <div>
+        <div class="footer-text">
           <p>
-            An awesome & poweful tools for your business, increase business
-            revenue. with evaluating in depth variety of data sets and including
-            the speed of tech adaptation we can build bridges between any
-            companies and their customers.
+            An awesome & powerful tool for your business to increase revenue.
+            Evaluating a variety of data sets and the speed of tech adaptation,
+            we build bridges between companies and customers.
           </p>
         </div>
-        <div>
+        <div class="footer-links">
           <div>
-            <div>Home</div>
+            <h3>Home</h3>
             <a href="#">Features</a>
             <a href="#">Solutions</a>
             <a href="#">Resources</a>
             <a href="#">Pricing</a>
           </div>
           <div>
-            <div>About Us</div>
+            <h3>About Us</h3>
             <a href="#">Company</a>
             <a href="#">Contact</a>
             <a href="#">Career</a>
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div>
+
+      <!-- Footer Middle Section -->
+      <div class="footer-middle">
+        <div class="footer-middle-box">
+          <h1>
             This website is developed by trainees at
-            <span>Archi’s Academy </span>
-          </div>
-          <div>
+            <span>Archi’s Academy</span>
+          </h1>
+          <div class="footer-collaborators">
             <div>Collaborators</div>
             <div>
-              <img src="/assets/collaboratoe1.svg" alt="collaboratoe1" />
+              <img src="/assets/collaboratoe1.svg" alt="collaborator1" />
               <img src="/assets/collaborator2.svg" alt="collaborator2" />
               <img src="/assets/collaborator3.svg" alt="collaborator3" />
               <img src="/assets/collaborator4.svg" alt="collaborator4" />
@@ -474,14 +477,17 @@
           </div>
         </div>
       </div>
-      <!--Credits Section -->
-      <div>
+
+      <!-- Footer Bottom Section -->
+      <div class="footer-bottom">
         <p>©2022-2023 Trustco.</p>
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
+        <div class="footer-bottom-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+        </div>
         <div class="language-selector">
           <select name="language" id="language">
-            <option value="en" selected>🌐 English</option>
+            <option value="en">🌐 English</option>
           </select>
         </div>
       </div>
