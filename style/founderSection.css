@@ -119,7 +119,7 @@
 /* Ads Banner */
 .ads-banner {
   background-color: #12141d;
-  color: white;
+  color: #fff;
   display: flex;
   align-items: center;
 }
@@ -155,4 +155,61 @@
   height: auto;
 }
 
+@media (max-width: 1024px) {
+  .ads-banner {
+    flex-direction: column;
+  }
+  .ads-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem 4.375rem;
+    padding-right: 0;
+  }
+  .ads-content {
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .ads-content h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .ads-image {
+    max-width: 80%;
+  }
+}
 
+@media (max-width: 768px) {
+  .ads-content {
+    padding: 2rem 1.25rem;
+  }
+  .ads-content h1 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .no-credit-text {
+    font-size: 1rem;
+  }
+
+  .ads-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .ads-content {
+    padding: 2rem 4.375rem;
+    padding-right: 0;
+  }
+  .no-credit-text {
+    font-size: 1rem;
+  }
+  .ads-content h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .founder-content {
+    gap: 1.8rem;
+  }
+}
