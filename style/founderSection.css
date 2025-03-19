@@ -61,7 +61,6 @@
     padding-right: 4.375rem;
     padding-top: 0;
     padding-bottom: 2rem;
-
   }
 
   .founder-content {
@@ -86,7 +85,6 @@
     padding-right: 1.25rem;
     padding-top: 0;
     padding-bottom: 2rem;
-
   }
 
   .founder-text h1 {
@@ -117,3 +115,44 @@
     gap: 1.8rem;
   }
 }
+
+/* Ads Banner */
+.ads-banner {
+  background-color: #12141d;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.ads-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: start;
+  padding: 50px 150px;
+  padding-right: 0;
+}
+
+.ads-content h1 {
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+
+.ads-btn {
+  gap: 12px;
+  background-color: #f0b73f;
+  padding: 16px 24px;
+}
+
+.no-credit-text {
+  font-size: 1.25rem;
+  padding-top: 1.5rem;
+}
+
+.ads-image {
+  max-width: 50%;
+  height: auto;
+}
+
+

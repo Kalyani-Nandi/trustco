@@ -162,6 +162,7 @@
 
 .blog-card:hover {
   transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .blog-image img {
