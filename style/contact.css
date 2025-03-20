@@ -116,6 +116,9 @@
   align-items: center;
   justify-content: center;
 }
+.terms-conditions-text {
+  display: block;
+}
 .custom-checkbox {
   display: inline-flex;
   align-items: center;
@@ -134,8 +137,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 31px;
+  width: 30px;
+  height: 28px;
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 50%;
@@ -143,7 +146,7 @@
   font-weight: bold;
   color: transparent;
   transition: all 0.3s ease;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 
 .custom-checkbox input:checked + .checkmark {
@@ -169,6 +172,7 @@
   font-size: 16px;
 }
 .input-field img {
+  margin-top: 4px;
   width: 20px;
   height: 20px;
 }
@@ -204,8 +208,9 @@ input:focus-within {
     background-color: #fff;
   }
   .input-field img {
-    width: 32px;
-    height: 30px;
+    margin-top: 0;
+    width: 34px;
+    height: 32px;
   }
   .contact-form-ctn {
     width: 100%;
