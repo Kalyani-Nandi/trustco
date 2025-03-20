@@ -1,5 +1,5 @@
 .contact-ctn {
-  background-color: #f2f5f6;
+  background-color: #fff;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #f2f5f6;
+  background-color: #fff;
   gap: 1.25rem;
   padding: 24px;
   border-radius: 1rem;
@@ -135,7 +135,7 @@
   align-items: center;
   justify-content: center;
   width: 32px;
-  height: 30px;
+  height: 31px;
   background-color: #fff;
   border: 1px solid #000;
   border-radius: 50%;
@@ -164,9 +164,13 @@
   border: 1px solid #91a7b0;
   gap: 15px;
   border-radius: 10px;
-  padding: 12px;
+  padding: 8px 12px;
   color: #91a7b0;
   font-size: 16px;
+}
+.input-field img {
+  width: 20px;
+  height: 20px;
 }
 .contact-form-ctn input {
   width: 100%;
@@ -175,6 +179,9 @@ input:focus-within {
   outline-width: 0px;
 }
 @media (min-width: 768px) {
+  .contact-ctn {
+    background-color: #f2f5f6;
+  }
   .contact-ctn {
     padding: 50px 70px;
     gap: 2rem;
@@ -192,6 +199,13 @@ input:focus-within {
   .card {
     gap: 2rem;
     background-color: #fff;
+  }
+  .contact-form {
+    background-color: #fff;
+  }
+  .input-field img {
+    width: 32px;
+    height: 30px;
   }
   .contact-form-ctn {
     width: 100%;

@@ -8,12 +8,14 @@
   display: flex;
   width: 100%;
   padding: 1.5625rem 1.25rem 2.5rem;
-  gap: 2.5rem;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .footer-logo {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2.5rem;
 }
 
@@ -24,6 +26,8 @@
 
 .footer-text {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-text p {
@@ -33,6 +37,7 @@
 .footer-links {
   display: flex;
   gap: 2rem;
+  font-size: 1rem;
 }
 
 .footer-links > div {
@@ -64,11 +69,11 @@
 .footer-middle-box {
   background-color: white;
   border: 1px solid #888888;
-  font-size: 1rem;
+  font-size: 1.125rem;
   border-radius: 20px;
 }
 
-.footer-middle-box h1 {
+.footer-middle-box-text {
   padding: 30px 10px;
   color: #444444;
   display: flex;
@@ -77,10 +82,11 @@
   margin: 0;
   text-align: center;
   font-size: 1rem;
+  flex-wrap: wrap;
   font-weight: 500;
 }
 
-.footer-middle-box h1 > span {
+.footer-middle-box-text a {
   color: #6439ff;
   padding-left: 0.25rem;
 }
@@ -107,28 +113,10 @@
   gap: 19px;
 }
 
-@media (min-width: 640px) {
-  .footer-logo {
-    align-items: flex-start;
-  }
-
-  .footer-text {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .footer-middle-box,
-  .footer-middle-box h1 {
-    font-size: 1.125rem;
-  }
-  .footer-bottom {
-    flex-direction: row;
-  }
-}
-
 .footer-bottom {
   background-color: #f2f5f6;
   display: flex;
+  flex-direction: column;
   color: #92a7b0;
   align-items: center;
   padding: 24px 20px;
@@ -166,32 +154,22 @@
   font-size: 1rem;
 }
 
-@media (max-width: 639px) {
-  .footer-logo {
-    align-items: center;
-  }
-
-  .footer-text {
-    justify-content: center;
-    align-items: center;
-  }
-  .footer-bottom {
-    flex-direction: column;
-  }
-}
-
 @media (min-width: 768px) {
   .footer-top {
     flex-direction: row;
     padding: 2.5rem 4.375rem;
+    gap: 2.5rem;
   }
 
   .footer-logo {
+    align-items: flex-start;
     width: 20%;
   }
 
   .footer-text {
     width: 47%;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .footer-links {
@@ -203,7 +181,7 @@
     font-size: 1.25rem;
   }
 
-  .footer-middle-box h1 {
+  .footer-middle-box-text {
     padding: 30px 100px;
   }
 
@@ -212,23 +190,14 @@
   }
   .footer-bottom {
     padding: 24px 70px;
-  }
-}
-
-@media (max-width: 767px) {
-  .footer-top {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .footer-links {
-    font-size: 1rem;
+    flex-direction: row;
   }
 }
 
 @media (min-width: 1280px) {
   .footer-top {
     padding: 5rem 9.375rem;
+    justify-content: space-between;
   }
   .footer-links {
     gap: 5.625rem;

@@ -13,6 +13,7 @@
   flex-direction: column;
   gap: 4rem;
   justify-content: center;
+  padding-bottom: 4rem;
 }
 
 .founder-text {
@@ -60,12 +61,13 @@
     padding-left: 4.375rem;
     padding-right: 4.375rem;
     padding-top: 0;
-    padding-bottom: 2rem;
+    padding-bottom: 0;
   }
 
   .founder-content {
     align-items: center;
     gap: 1.5rem;
+    padding-bottom: 0;
   }
   .founder-text {
     gap: 1rem;
@@ -84,7 +86,7 @@
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     padding-top: 0;
-    padding-bottom: 2rem;
+    padding-bottom: 0;
   }
 
   .founder-text h1 {
@@ -104,6 +106,12 @@
   .founder-text p {
     font-size: 1rem;
   }
+  .founder-section {
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .founder-text h1 {
     font-size: 2.5rem;
     line-height: 3rem;
@@ -122,6 +130,8 @@
   color: #fff;
   display: flex;
   align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .ads-content {
@@ -131,6 +141,7 @@
   text-align: start;
   padding: 50px 150px;
   padding-right: 0;
+  width: 50%;
 }
 
 .ads-content h1 {
@@ -164,7 +175,7 @@
     text-align: center;
     gap: 1rem;
     padding: 2rem 4.375rem;
-    padding-right: 0;
+    width: 100%;
   }
   .ads-content {
     align-items: center;
@@ -185,7 +196,7 @@
   }
   .ads-content h1 {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.75rem;
   }
   .no-credit-text {
     font-size: 1rem;
