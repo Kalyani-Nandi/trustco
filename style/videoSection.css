@@ -14,8 +14,8 @@
 .sales-content {
   display: flex;
   justify-content: space-between;
-  gap: 2.5rem;
-  width: 100%;
+  gap: 2rem;
+  max-width: 1132px;
   color: #fff;
 }
 
@@ -23,15 +23,19 @@
   font-size: 3.75rem;
   font-weight: bold;
   line-height: 72px;
+  display: block;
+  width: 60%;
 }
 
 .sales-highlight {
   color: #f0b73f;
+  display: block;
 }
 
 .sales-description {
   font-size: 1.125rem;
   color: #fff;
+  width: 40%;
 }
 
 .sales-video img {
@@ -48,9 +52,17 @@
   }
 
   .sales-content {
+    width: 100%;
     flex-direction: column;
     text-align: start;
     gap: 16px;
+  }
+  .sales-title {
+    width: 100%;
+  }
+
+  .sales-description {
+    width: 100%;
   }
 }
 
@@ -174,6 +186,11 @@
 @media (max-width: 1280px) and (min-width: 1024px) {
   .beneficial-description p {
     font-size: 1rem;
+  }
+  .sales-section,
+  .beneficial-section {
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
   }
   .beneficial-title {
     font-size: 2.5rem;
