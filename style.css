@@ -5,6 +5,8 @@
 @import url("style/founderSection.css");
 @import url("style/testimonialSection.css");
 @import url("style/footerSection.css");
+@import url("style/contact.css");
+
 
 
 
@@ -65,7 +67,7 @@ a:hover {
 }
 
 /* footer {
-  margin-top: 40px;
+  margin-top: 40px;</div>
   text-align: center;
 } */
 
