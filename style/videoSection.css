@@ -33,7 +33,7 @@
 }
 
 .sales-description {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   color: #fff;
   width: 40%;
 }
@@ -139,7 +139,10 @@
   font-weight: bold;
   color: #12141d;
 }
-
+.beficial-btn {
+  padding: 1rem 1.5rem;
+  font-weight: 400;
+}
 .beneficial-card img {
   width: 5.8125rem;
   height: 5.25rem;
